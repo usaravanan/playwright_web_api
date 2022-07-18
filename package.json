@@ -1,0 +1,18 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ui-smoke-dev": "npx playwright test tests/ui --project ui-dev --grep @smoke",
+    "ui-regression-dev": "npx playwright test tests/ui --project ui-dev --grep @regression",
+    "api-smoke-dev": "npx playwright test tests/api --project api-dev --grep @smoke",
+    "api-regression-dev": "npx playwright test tests/api --project api-dev --grep @regression"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.23.4",
+    "randomstring": "^1.2.2"
+  }
+}

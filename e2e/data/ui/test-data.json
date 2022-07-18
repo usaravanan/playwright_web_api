@@ -1,0 +1,20 @@
+{
+    "firstName": "test",
+    "lastName": "user",
+    "email": "test21@westfield.com",
+    "password": "test123",
+    "title": {
+        "landing_page": "Westfield - United States",
+        "login_page": "Login Westfield Century City",
+        "register_page": "Registration Westfield Century City",
+        "home_page": "Myrewards Westfield Century City"
+    },
+    "browser_stack" : {
+        "browser" : "playwright-chromium",
+        "os" : "os x",
+        "os_version": "mojave",
+        "browserstack.username" : "saravanan207",
+        "browserstack.accessKey" : "UVogcHx2yiAvBMuD6r1y",
+        "client.playwrightVersion" : "1.23.4"
+      }
+}

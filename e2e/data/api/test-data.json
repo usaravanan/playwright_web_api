@@ -1,0 +1,57 @@
+{
+  "api_key": "PGEZV1EdJKkgidS8EUGpD8Y0S4zD83Yi",
+  "deal_id": 156340,
+  "request": {
+    "body": {
+      "authorization": {
+        "grant_type": "password",
+        "client_id": "1f545fd55f450c03ba2ffaa692140866a3aa38db26f38b47ce80c1bbf5c512aa",
+        "client_secret": "6511de6c9f458ae5a80cc15d3a176efd390a934d5487d323b11c0ffa98c3de0d",
+        "username": "svc_gpp_gbl_rf_01@westfield.com",
+        "password": "qAt35t1nGD3v3l0p",
+        "redirect_uri": "",
+        "code": "",
+        "scope": ""
+      },
+      "create_deal": {
+        "title": "QA1 Retail",
+        "published_at": "2022-05-19T00:00:00Z",
+        "starts_at": "2022-05-19T00:00:00Z",
+        "ends_at": "2022-06-19T23:59:59Z",
+        "image_ref": "https://res.cloudinary.com/wf-dev/image/upload/westfield-media/us/retailer/logos/jufwv1vvwmd9v7rvixhr.png",
+        "mobile_offer_visual": "https://res.cloudinary.com/wf-dev/image/upload/westfield-media/us/retailer/logos/jufwv1vvwmd9v7rvixhr.png",
+        "locale": "default",
+        "locations": [
+          {
+            "disabled_at": "2018-03-21T21:43:56Z",
+            "enabled_at": "2018-03-21T21:43:56Z",
+            "level_description": "string",
+            "level_id": "string",
+            "level_name": "Floor 1",
+            "location_id": "string",
+            "name": "Next to Bloomingdales",
+            "primary": true,
+            "published_at": "2018-03-21T21:43:56Z"
+          }
+        ],
+        "stores": [
+          {
+            "centre_id": "centurycity",
+            "store_id": "24114",
+            "retailer_id": "4068"
+          }
+        ],
+        "state": "live",
+        "description": "deal description on creation",
+        "subtitle": "Deal Subtitle",
+        "support_diffusions": [
+          1044
+        ]
+      }
+    },
+    "header": {}
+  },
+  "response": {
+    "body": {}
+  }
+}
