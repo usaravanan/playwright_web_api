@@ -1,0 +1,17 @@
+language: node_js
+dist: trusty
+node_js:
+  - 16
+env:
+  # install browser binaries in node_modules
+  - NODE_ENV=production PLAYWRIGHT_BROWSERS_PATH=0
+install:
+- npm --production=false install
+cache:
+  directories:
+    - node_modules
+jobs:
+  include:
+    - stage: test
+      script:
+      - npx playwright test tests/api --project api-dev --grep @smoke
